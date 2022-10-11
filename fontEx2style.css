@@ -15,9 +15,24 @@ h1 {
     font-weight: normal;
 }
 
-#txt8 {
+.txt3 {
     color: blueviolet;
     text-decoration: underline;
+}
+
+.txt3:visited {
+    ccolor: blueviolet;
+    text-decoration: underline;
+}
+
+.txt3:hover {
+    color: darkslateblue;
+    text-decoration: line-through;
+}
+
+.txt3:active {
+    color: white;
+    background-color: blueviolet;
 }
 
 #box1 > figcaption {
