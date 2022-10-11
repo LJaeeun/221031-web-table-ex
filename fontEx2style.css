@@ -1,0 +1,102 @@
+@charset "utf-8";
+body {
+    background-color: transparent;
+    color: #555;
+    font-family: '나눔고딕','맑음고딕',돋움,sans-serif;
+}
+section {
+    background-color: lightgrey;
+    text-align: center;
+}
+h1 {
+    background-color: cadetblue;
+    color: #fff;
+    font-size: 35px;
+    font-weight: normal;
+}
+
+#txt8 {
+    color: blueviolet;
+    text-decoration: underline;
+}
+
+#box1 > figcaption {
+    line-height: 2.5;
+}
+
+#size1 {
+    color: red;
+    font-size: 13px;
+}
+
+.txt1 {
+    background-color: coral;
+}
+
+.txt1:visited {
+    color: #fff;
+    background-color: cadetblue;
+}
+
+.txt1:hover {
+    color: #fff;
+    background-color: brown;
+    text-decoration: line-through;
+
+}
+
+.txt1:active {
+    color: burlywood;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+h2 {
+    color: darkcyan;
+    text-align: center;
+}
+
+.txt2:visited {
+    color: darkcyan;
+    background-color: transparent;
+}
+.txt2:hover {
+    color: brown;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+.txt2:active {
+    color: burlywood;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+
+#txt1 {
+    background-color: darkcyan;
+    color: #fff;
+    text-align: end;
+}
+
+#txt3 {
+    background-color: darkcyan;
+    color: #fff;
+    text-align: end;
+}
+
+#check1 {
+    background-color: lightblue;
+}
+#check2 {
+    background-color: lightblue;
+}
+
+#txt5 {
+    font-weight: bold;
+    font-size: 18px;
+}
+span {
+    color: red;
+    font-size: 15px;
+}
