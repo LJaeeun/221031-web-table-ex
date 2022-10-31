@@ -58,8 +58,8 @@
                 box-sizing: border-box;
                 width: 100%;
                 height: 50px;
-                line-height: 30px;  
-                padding: 10px 20px;
+                line-height: 50px;  
+                /* padding: 10px 20px; */
                 font-weight: bold;
             }
             .wrapper header .box2 li {
@@ -70,10 +70,13 @@
                 font-size: 17px;
                 text-decoration: none;
                 color: #7d1e63;
-                padding-right: 40px;
+                /* background-color: #eeb0b0; */
+                padding-right: 30px;
+                padding-left: 30px;
             }
             .wrapper header .box2 li a:hover {
-                color: red;
+                color: #ffcd38;
+                background-color: #7d1e63;
             }
             main article {
                 float: left;
@@ -149,7 +152,7 @@
                 border-bottom: 1px solid red;
                 line-height: 3.0;
                 font-size: 20px;
-                font-weight: bold;
+                font-weight: bold; 
             }
             main aside h2 {
                 font-size: 25px;
@@ -162,11 +165,13 @@
                 line-height: 0.2;
                 font-size: 20px;
             }
-            main aside li {
+            main aside ul li a {
+                text-decoration: none;
+                color: #000;
                 display: block;
             }
-            main aside li:hover {
-                color: red;
+            main aside li a:hover {
+                background-color: #f1eee9;
             }
             footer {
                 background-color: #7d1e6a;
@@ -215,10 +220,10 @@
                     <div class="txt1">
                         <h2>인기요리법</h2>
                         <ul>
-                            <li>후라이드</li>
-                            <li>고추바사삭</li>
-                            <li>양념치킨</li>
-                            <li>강정</li>
+                            <li><a href="#">후라이드</a></li>
+                            <li><a href="#">고추바사삭</a></li>
+                            <li><a href="#">양념치킨</a></li>
+                            <li><a href="#">강정</a></li>
                         </ul>
                         <h2 class="mag">연락처</h2>
                         <p class="pad">경기 수원시 팔달구 매산동</p>
